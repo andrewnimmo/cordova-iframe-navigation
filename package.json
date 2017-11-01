@@ -1,0 +1,40 @@
+{
+  "name": "cordova-iframe-navigation",
+  "version": "1.0",
+  "description": "Cordova iframe navigation",
+  "cordova": {
+    "id": "cordova-iframe-navigation",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewnimmo-2bp/cordova-iframe-navigation"
+  },
+  "keywords": [
+    "cordova",
+    "browser",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.2.3": {
+        "cordova": ">=3.1.0"
+      },
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  }
+}
