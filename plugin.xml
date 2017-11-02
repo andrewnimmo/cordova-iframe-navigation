@@ -5,6 +5,12 @@
       When window.open is called inside an iframe, instead of doing nothing, url is opened in the browser
     </description>
     <license>Apache 2.0</license>
+    <repo>https://github.com/andrewnimmo-2bp/cordova-iframe-navigation</repo>
+    <engines>
+      <engine name="cordova-ios" version=">=4.0.0-dev"/>
+      <engine name="apple-ios" version=">=9.0"/>
+    </engines>
+    
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="CDVIFrameNavigation">
@@ -15,4 +21,5 @@
         <header-file src="src/ios/CDVIFrameNavigation.h" />
         <source-file src="src/ios/CDVIFrameNavigation.m" />
     </platform>
+    <author>Morten Olsen</author>
 </plugin>
